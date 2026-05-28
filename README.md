@@ -1,4 +1,4 @@
-# Histone_tail_cancer_mutation
+# supplementary data
 This repository contains supplementary data.
 
 You can browse the following folders:
