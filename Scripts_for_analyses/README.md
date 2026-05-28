@@ -6,6 +6,6 @@ You can browse the following folders:
 4. [MSM_analysis](./MSM_analysis): scripts for Markov State Model construction
 5. [RG_calculation](./RG_calculation): scripts for calculating radius of gyration
 6. [SASA_calculation](./SASA_calculation): scripts for calculating solvent-accessible surface area
-7. [Secondary structure_calculation](./Secondary structure_calculation): scripts for secondary structure analysis
+7. [Secondary_structure_calculation](./Secondary_structure_calculation): scripts for secondary structure analysis
 8. [VMD_tcl_scripts_for_nucleosome_trajectories_analysis](./VMD_tcl_scripts_for_nucleosome_trajectories_analysis): scripts for analyzing MD trajectories using VMD.
-9. intra-tail contact_calculation](./intra-tail contact_calculation): scripts for calculating inter-atomic contact counts within histone tails.
+9. intra-tail_contact_calculation](./intra-tail_contact_calculation): scripts for calculating inter-atomic contact counts within histone tails.
