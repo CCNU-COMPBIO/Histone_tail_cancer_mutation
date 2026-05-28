@@ -1,0 +1,23 @@
+&general
+  startframe=200,
+  endframe=1500,
+  interval=1,
+/
+
+&gb
+  igb=5,
+  saltcon=0.150,
+  surften=0.005,
+  surfoff=0,
+  molsurf=0,
+  
+  #intdiel=1,deafult
+  #extdiel=80,deafult
+/
+
+&decomposition
+  idecomp=2,
+  dec_verbose=3,
+  print_res="within 999",
+/
+EOF
