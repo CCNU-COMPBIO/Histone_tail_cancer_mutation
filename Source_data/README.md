@@ -1,7 +1,7 @@
 # Source data
 You can browse all source data in the following folders:
 1. [Distance_calculation](./Distance_calculation): results of histone tail end-to-end distance calculation
-2. [Histone_mutation_data](./Histone_mutation_data): Results of statistical analysis on nucleosomal histone tail mutations
+2. [Histone_mutation_data](./Histone_mutation_data): results of statistical analysis on nucleosomal histone tail mutations
 3. [MD2NMR_results](./MD2NMR_results): results of NMR spectral parameters，τc
 4. [MMGBSA_calculation](./MMGBSA_calculation): results of energy calculations using the MM/GBSA approach
 5. [RG_calculation](./RG_calculation): results of histone tail radius of gyration calculation
