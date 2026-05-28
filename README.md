@@ -1,4 +1,4 @@
-# supplementary data
+# Supplementary data
 This repository contains supplementary data.
 
 You can browse the following folders:
