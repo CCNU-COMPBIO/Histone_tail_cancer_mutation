@@ -1,0 +1,66 @@
+;
+;	File 'topol.top' was generated
+;	By user: wang (1000)
+;	On host: 123
+;	At date: Sat Dec 13 18:27:28 2025
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2025.3 (-:
+;	
+;	Executable:   /opt/gromacs-2025.3/bin/gmx_mpi
+;	Data prefix:  /opt/gromacs-2025.3
+;	Working dir:  /home/wang/核小体/H3_K27M
+;	Command line:
+;	  gmx_mpi pdb2gmx -f H3_TAIL_CLEAN.pdb -o TAIL_processed.gro -ignh
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "amber14sb_OL15.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_DNA_chain_A.itp"
+#include "topol_DNA_chain_B.itp"
+#include "topol_Protein_chain_C.itp"
+#include "topol_Protein_chain_D.itp"
+#include "topol_Protein_chain_E.itp"
+#include "topol_Protein_chain_F.itp"
+#include "topol_Protein_chain_G.itp"
+#include "topol_Protein_chain_H.itp"
+#include "topol_Protein_chain_I.itp"
+#include "topol_Protein_chain_J.itp"
+
+; Include water topology
+#include "amber14sb_OL15.ff/opc.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "amber14sb_OL15.ff/ions.itp"
+
+[ system ]
+; Name
+Protein in water t= 50000.00000 step= 12500000
+
+[ molecules ]
+; Compound        #mols
+DNA_chain_A         1
+DNA_chain_B         1
+Protein_chain_C     1
+Protein_chain_D     1
+Protein_chain_E     1
+Protein_chain_F     1
+Protein_chain_G     1
+Protein_chain_H     1
+Protein_chain_I     1
+Protein_chain_J     1
+SOL         168107
+NA               630
+CL               484
